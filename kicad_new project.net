@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\user\\Documents\\D_KUBAS_MultiVib\\kicad_new project\\kicad_new project.sch")
-    (date "26.3.2017 00:24:02")
+    (source "C:/Users/user/Documents/D_KUBAS_MultiVib/One _transistor _amplifier/kicad_new project.sch")
+    (date "24.5.2017 22:04:37")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -73,11 +73,13 @@
       (tstamp 58D6D530))
     (comp (ref P1)
       (value Signal_In)
+      (footprint Buttons_Switches_THT:SW_PUSH)
       (libsource (lib conn) (part CONN_01X02))
       (sheetpath (names /) (tstamps /))
       (tstamp 58D6D591))
     (comp (ref P2)
       (value Signal_Out)
+      (footprint Buttons_Switches_THT:SW_PUSH)
       (libsource (lib conn) (part CONN_01X02))
       (sheetpath (names /) (tstamps /))
       (tstamp 58D6D664)))
@@ -139,10 +141,10 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical transistors)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets

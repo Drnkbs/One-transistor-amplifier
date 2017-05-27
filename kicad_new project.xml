@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/user/Documents/D_KUBAS_MultiVib/One _transistor _amplifier/kicad_new project.sch</source>
+    <date>27.5.2017 17:51:14</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>One _transistor_ amplifier</title>
+        <company>Duran KUBAŞ</company>
+        <rev>1</rev>
+        <date>2017-03-26</date>
+        <source>kicad_new project.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>BC548</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <datasheet>http://groups.ist.utl.pt/lee/SUBA/Suba_files/c945.pdf</datasheet>
+      <libsource lib="transistors" part="BC548"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6CE9C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal</footprint>
+      <datasheet>http://eu.mouser.com/ProductDetail/Panasonic/ERG-3SJ472V/?qs=sGAEpiMZZMsPqMdJzcrNwqYZdPaOFPtqImBwd%252b8jhqU%3d</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6D05A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal</footprint>
+      <datasheet>http://pdf1.alldatasheet.com/datasheet-pdf/view/167973/SHARMA/RS11-1/2W-22K.html</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6D0F9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1.8k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P25.40mm_Horizontal</footprint>
+      <datasheet>http://eu.mouser.com/ProductDetail/Vishay-Dale/NS02B1K800FE12/?qs=sGAEpiMZZMsPqMdJzcrNwsj6vNPht0amqKPGe4HTMUs%3d</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6D14C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>6.8k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P22.86mm_Horizontal</footprint>
+      <datasheet>http://eu.mouser.com/ProductDetail/Ohmite/OY682KE/?qs=sGAEpiMZZMsPqMdJzcrNwjtPlJKOfS0V0o9Yi7yn0cc%3d</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6D229</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>20uF</value>
+      <footprint>Capacitors_THT:CP_Axial_L30.0mm_D18.0mm_P35.00mm_Horizontal</footprint>
+      <datasheet>http://eu.mouser.com/ProductDetail/Vishay-Sprague/TVA1410-E3/?qs=sGAEpiMZZMtZ1n0r9vR22fD1uTV3UxMj8VY1LQ3tMWg%3d</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6D2B4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>50uF</value>
+      <footprint>Capacitors_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal</footprint>
+      <datasheet>http://www.mouser.in/ProductDetail/Vishay-Sprague/TVA1308-E3/?qs=sGAEpiMZZMsh%252b1woXyUXjzlxehkSqjWC2qPjuguJL7c%3d</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6D4B1</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>20uF</value>
+      <footprint>Capacitors_THT:CP_Axial_L30.0mm_D18.0mm_P35.00mm_Horizontal</footprint>
+      <datasheet>http://eu.mouser.com/ProductDetail/Vishay-Sprague/TVA1410-E3/?qs=sGAEpiMZZMtZ1n0r9vR22fD1uTV3UxMj8VY1LQ3tMWg%3d</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6D530</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Signal_In</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6D591</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Signal_Out</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D6D664</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="transistors" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC547.pdf</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C3-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="R4" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad1)">
+      <node ref="P1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="7" name="+12V">
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+  </nets>
+</export>

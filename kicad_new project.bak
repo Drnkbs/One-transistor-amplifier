@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:kicad_new project-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -148,7 +147,7 @@ U 1 1 58D6D664
 P 8500 3750
 F 0 "P2" H 8500 3900 50  0000 C CNN
 F 1 "Signal_Out" V 8600 3750 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH" H 8500 3750 50  0000 C CNN
+F 2 "" H 8500 3750 50  0000 C CNN
 F 3 "" H 8500 3750 50  0000 C CNN
 	1    8500 3750
 	1    0    0    -1  

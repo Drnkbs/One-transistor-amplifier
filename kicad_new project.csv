@@ -1,0 +1,10 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"P1";"SW_PUSH";1;"Signal_In";;;
+2;"P2";"SW_PUSH";1;"Signal_Out";;;
+3;"C1,C3";"CP_Axial_L30.0mm_D18.0mm_P35.00mm_Horizontal";2;"20uF";;;
+4;"C2";"CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal";1;"50uF";;;
+5;"Q1";"TO-92_Inline_Narrow_Oval";1;"BC548";;;
+6;"R1";"R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal";1;"22k";;;
+7;"R2";"R_Axial_DIN0918_L18.0mm_D9.0mm_P22.86mm_Horizontal";1;"6.8k";;;
+8;"R3";"R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal";1;"4.7k";;;
+9;"R4";"R_Axial_DIN0614_L14.3mm_D5.7mm_P25.40mm_Horizontal";1;"1.8k";;;
